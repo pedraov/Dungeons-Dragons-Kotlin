@@ -8,4 +8,9 @@ class Orc : Raça{
             p.constituicao += 2
             println("\nBônus de classe aplicado!\nForça + 2 e Constiuição + 1.")
     }
+
+    override fun escolherRaça(p: Personagem) {
+        p.raca = "MEIO ORC"
+        print("\nRaça escolhida: " + p.raca + "\n")
+    }
 }

@@ -8,4 +8,9 @@ class Draconato : Raça{
         p.carisma += 1
         println("\nBônus de raça aplicado!\nForça + 2 e Carisma + 1.")
     }
+
+    override fun escolherRaça(p: Personagem) {
+        p.raca = "DRACONATO"
+        print("\nRaça escolhida: " + p.raca + "\n")
+    }
 }

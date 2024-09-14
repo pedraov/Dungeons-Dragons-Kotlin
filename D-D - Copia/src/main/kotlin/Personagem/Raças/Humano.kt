@@ -12,4 +12,9 @@ class Humano : Raça{
             p.sabedoria += 1
             println("\nBônus de classe aplicado!\nForça + 1, Carisma + 1, Destreza + 1, Constiuição + 1, Sabedoria + 1 e Inteligência + 1.")
     }
+
+    override fun escolherRaça(p: Personagem) {
+        p.raca = "HUMANO"
+        print("\nRaça escolhida: " + p.raca + "\n")
+    }
 }

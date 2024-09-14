@@ -10,4 +10,9 @@ class HalflingLeve : Raça {
                 "Bônus de classe aplicado!\n" +
                 "Carisma + 1 e Destreza + 2")
     }
+
+    override fun escolherRaça(p: Personagem) {
+        p.raca = "HALFLING LEVE"
+        print("\nRaça escolhida: " + p.raca + "\n")
+    }
 }

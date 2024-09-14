@@ -7,4 +7,9 @@ class MeioElfo : Raça {
         p.carisma += 2
         println("\nBônus de raça aplicado!\nCarisma + 2.")
     }
+
+    override fun escolherRaça(p: Personagem) {
+        p.raca = "MEIO ELFO"
+        print("\nRaça escolhida: " + p.raca + "\n")
+    }
 }

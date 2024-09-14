@@ -8,4 +8,9 @@ class AnãoColina : Raça{
         p.sabedoria += 1
         println("\nBônus de raça aplicado!\nConstiuição + 2 e sabedoria + 1")
     }
+
+    override fun escolherRaça(p: Personagem) {
+        p.raca = "ANÃO DA COLINA"
+        print("\nRaça escolhida: " + p.raca + "\n")
+    }
 }
