@@ -8,6 +8,9 @@
     <artifactId>D-D</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <name>D-D</name>
+    <description>Dungeons e Dragons em Kotlin</description>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.code.style>official</kotlin.code.style>
@@ -19,7 +22,13 @@
             <id>mavenCentral</id>
             <url>https://repo1.maven.org/maven2/</url>
         </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
+
+
 
     <build>
         <sourceDirectory>src/main/kotlin</sourceDirectory>
@@ -65,6 +74,11 @@
         </plugins>
     </build>
 
+    <scm>
+        <url>https://github.com/pedraov/Dungeons-Dragons-Kotlin</url>
+        <connection>scm:git:git:https://github.com/pedraov/Dungeons-Dragons-Kotlin.git</connection>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
@@ -82,6 +96,11 @@
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib</artifactId>
             <version>2.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.pedraov</groupId>
+            <artifactId>Dungeons-Dragons-Kotlin</artifactId>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 
