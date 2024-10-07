@@ -67,28 +67,11 @@ class Personagem () {
         print("\nCarisma: ${carisma}")
     }
 
+    fun setNome(nome: String){
+        this.nome = nome
+    }
+
     init {
-        fun Interação1(){
-
-            //Interação 1 - Escolha de nome
-            var nome: String? = null
-
-            while (nome.isNullOrBlank() || nome.any { it.isDigit() }) {
-                print("Olá viajante, qual seria seu nome?\n")
-                nome = readLine()
-
-                if (nome.isNullOrBlank()) {
-                    println("Por favor, insira um nome válido (não pode ser vazio).")
-                } else if (nome.any { it.isDigit() }) {
-                    println("O nome não pode conter números. Tente novamente.")
-                    nome = null
-                }
-            }
-
-            this.nome = nome
-
-            print("\nMuito prazer ${this.nome}, eu sou seu mestre e irei te guiar na criação do seu personagem!")
-        }
 
         fun Interação2(){
 
