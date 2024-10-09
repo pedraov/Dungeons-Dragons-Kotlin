@@ -7,9 +7,7 @@ import Personagem.Raças.*
 fun main() {
     // Interações para criação do personagem
     val p : Personagem = Personagem()
-
-    p.CalcularPV()
-    p.MostrarPersonagem()
+    
 }
 
 
