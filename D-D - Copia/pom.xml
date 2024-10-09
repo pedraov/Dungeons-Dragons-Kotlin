@@ -100,7 +100,7 @@
         <dependency>
             <groupId>com.github.pedraov</groupId>
             <artifactId>Dungeons-Dragons-Kotlin</artifactId>
-            <version>main-SNAPSHOT</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
